@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu="return false">
+   <head>
+      <meta name="p:domain_verify" content="4c233d53e41fcfc66afbc9eb328baa75"/>
+      <script data-ad-client="ca-pub-1240416526130305" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <style>
+         .bg-grey {
+         background: #292929;
+         }
+         footer {
+         color: grey;
+         }
+         footer p {
+         font-size: 16px;
+         font-family: 'Roboto', sans-serif;
+         }
+         .center {
+         text-align: center;
+         }
+        
+         
+      </style>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176750478-1"></script>
+      <script>
+         $(document).keydown(function(e){ 
+             if(e.which === 123){ 
+          
+                return false; 
+          
+             } 
+          
+         }); 
+      </script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         
+         gtag('config', 'UA-176750478-1');
+      </script>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="Bash script">
+      <meta name="author" content="codeomi">
+      <meta name="keywords" content="crontab in unix, mailx command in unix, UNIX, bash, script, cron, crontab, expect">
+      <title>UNIX</title>
+      <link rel = "icon" href = "vendorContent/img/Titlebar.PNG" type = "image/x-icon">
+      <!-- Bootstrap core CSS -->
+      <link href="vendorContent/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Custom fonts for this template -->
+      <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+      <!-- Custom styles for this template -->
+      <link href="vendorContent/css/zoro.min.css" rel="stylesheet">
+      <link href="vendorContent/css/desert.css" rel="stylesheet">
+      <link href="vendorContent/css/basic.css" rel="stylesheet">
+   </head>
+   <body oncontextmenu="return false" onkeydown="return false;">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+         <div class="container">
+            <a class="navbar-brand" href="#">UNIX</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+               <ul class="navbar-nav ml-auto">
+                   <li class="nav-item">
+                     <a class="nav-link" href="index.html">HOME</a>
+                  </li>
+                   <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Node JS CRUD API
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="NodeJSPostman.html"
+                  >Using Postman</a
+                >
+                <a class="dropdown-item" href="NodeJSHTTPCLIENT.html"
+                  >Using HTTP Client</a
+                >
+              </div>
+            </li>
+                  
+                  <!-- <li class="nav-item">
+                     <a class="nav-link" href="#">JMX</a>
+                     </li>-->
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <header class="masthead text-center text-white">
+         <div class="masthead-content">
+            <div class="container">
+               <div class="row align-items-center">
+                  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+                     <div class="container">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive1" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarResponsive1">
+                           <ul class="navbar-nav ml-auto">
+                             <li class="nav-item">
+                                 <a class="nav-link" href="#crontab">crontab scheduling</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#expect">expect</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#mailx">mailx</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#EmptyaFile">Empty a File</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#RunAScriptInBackground">Run a Script in Background</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </nav>
+               </div>
+            </div>
+         </div>
+         <div class="bg-circle-1 bg-circle"></div>
+         <div class="bg-circle-2 bg-circle"></div>
+         <div class="bg-circle-3 bg-circle"></div>
+         <div class="bg-circle-4 bg-circle"></div>
+      </header>
+      <section id="crontab">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="p-5">
+                  <h2 class="display-4" style=" border-bottom : 2px solid #39ff14;">crontab scheduling</h2>
+               </div>
+            </div>
+            <p>Using Crontab for running script at a particular time.</p>
+            <p>You can use <strong>which</strong> keyword to check the location of any utility on your server.</p>
+            <div style=" border-left: 6px solid #39ff14;">
+               <pre class="prettyprint lang-bash ">
+            which utility_name
+        </pre>
+            </div>
+            <br>
+            <hr>
+            <p>Check whether you have access to Crontab by typing</p>
+            <div style=" border-left: 6px solid #39ff14;">
+               <pre class="prettyprint lang-bash ">
+            crontab -e
+        </pre>
+            </div>
+            <p> If above given command gives an error of permission then you will have to try writing your name inside <strong>cron.allow</strong> file if you dont have access to this file then you will have to request for access to administrator.
+            <p> cron_expression: time at which the script should run. </p>
+            <p><strong>>></strong> : to redirect output to an output log file.</p>
+            <div style=" border-left: 6px solid #39ff14;">
+               <pre class="prettyprint lang-bash ">
+              cron_expression cd path/to/scriptnameA; scriptnameA.sh >> /path/for/outputlogs/logs.txt
+          </pre>
+            </div>
+            <br>
+            <hr>
+            <p>Save crontab pressing [Esc] key, : (colon) wq</p>
+            <p><strong>[Esc]</strong> : to get to Ex mode.
+            <p><strong>w</strong> : Save</p>
+            <p><strong>q</strong> : Quit</p>
+            <div style=" border-left: 6px solid #39ff14;">
+               <pre class="prettyprint lang-bash ">
+              :wq
+          </pre>
+            </div>
+            <p>You can also quit, discard all changes by pressing [Esc], : (colon) and q!</p>
+            <div style=" border-left: 6px solid #39ff14;">
+               <pre class="prettyprint lang-bash ">
+              :q!
+          </pre>
+            </div>
+            <p> This will allow you to run your script according to the time mentioned in cron_expression. </p>
+         </div>
+      </section>
+      <br>
+      <hr>
+      <section id="expect">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="p-5">
+                  <h2 class="display-4" style=" border-bottom : 2px solid #39ff14;">expect</h2>
+               </div>
+            </div>
+            <p>Use <strong>expect</strong> keyword concept for login in to a server without entering a password. It automates the task by providing inputs.</p>
+            <p>Get the path of <strong>expect</strong> utility by using:</p>
+            <div style=" border-left: 6px solid #39ff14;">
+               <pre class="prettyprint lang-bash ">
+            which expect
+        </pre>
+            </div>
+            <br>
+            <hr>
+            <p><strong>Example</strong>: /path/of/expect</p>
+            <p><strong>spawn</strong>: is used to start a&nbsp;script&nbsp;or a program like the&nbsp;shell, FTP, Telnet, SSH, SCP</p>
+            <p><strong>expect</strong>: works with scripts that expect user inputs. So this can be used while automatically providing the password via script.</p>
+            <p>Insert below given syntax into a script for example into script <strong>scriptnameA.sh</strong></p>
+            <p>Below given syntax will allow you to automatically enter the password without having to enter it manually.</p>
+            <p><strong>send --</strong> : Here you have to pass your user input that you want to put automatically like password for a login.
+            <p><strong>Syntax:</strong></p>
+            <div style=" border-left: 6px solid #39ff14;">
+               <pre class="prettyprint lang-bash ">
+      /path/of/expect &lt;&lt;EOF
+      spawn ssh username@0.0.0.0 "bash -s' &lt; scriptnameB.sh
+      expect "password"
+      send -- "YourPassword\n"
+      expect eof
+      EOF
+    </pre>
+            </div>
+            <br>
+            <p><strong>scriptnameB.sh</strong> is the script example that you will be running remotely in your SSH server after login in using expect.</p>
+            <br>
+         </div>
+      </section>
+      <br>
+      <hr>
+      <section id="mailx">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="p-5">
+                  <h2 class="display-4" style=" border-bottom : 2px solid #39ff14;">mailx</h2>
+               </div>
+            </div>
+            <p>Use <strong>mailx</strong> utility for sending mail</p>
+            <div style=" border-left: 6px solid #39ff14;">
+               <pre class="prettyprint lang-bash ">
+			echo "data" | uuencode $filename | mailx -s "This is the subject" emailID@domain.com
+        </pre>
+            </div>
+            <br>
+            <hr>
+            <p><strong>data</strong>: Data that you want to write into filename and send it in the mail</p>
+            <p><strong>uuencode filename</strong>: is used to store that data into the filename that you want to send as an attachment to your mail</p>
+            <p><strong>-s </strong>: option is used for subject.</p>
+            <p><strong>emailID@domain.com </strong>: Recepient.</p>
+            <p>You can use this syntax for sending mail without having to write any contents(Body of the mail) and to send it directly via bash script.</p>
+            <p>You can get more information by using 'man' command : </p>
+            <div style=" border-left: 6px solid #39ff14;">
+               <pre class="prettyprint lang-bash ">
+			man utility_name 
+        </pre>
+            </div>
+            <br>
+            <hr>
+         </div>
+      </section>
+      <br>
+      <hr>
+      <section id="EmptyaFile">
+         <div class="container">
+         <div class="row align-items-center">
+            <div class="p-5">
+               <h2 class="display-4" style=" border-bottom : 2px solid #39ff14;">Empty a File</h2>
+            </div>
+         </div>
+         <p>Use '<strong>></strong>' symbol to clear the contents of a file.</p>
+         <div style=" border-left: 6px solid #39ff14;">
+            <pre class="prettyprint lang-bash ">
+			> filename.extension
+        </pre>
+         </div>
+         <br>
+         <hr>
+         <p>Example:</p>
+         <div style=" border-left: 6px solid #39ff14;">
+            <pre class="prettyprint lang-bash ">
+			>  file.txt
+        </pre>
+         </div> </div>
+      </section>
+      <br>
+      <hr>
+      <section id="RunAScriptInBackground">
+         <div class="container">
+         <div class="row align-items-center">
+            <div class="p-5">
+               <h2 class="display-4" style=" border-bottom : 2px solid #39ff14;">Run a Script in Background</h2>
+            </div>
+         </div>
+         <p>Few of the times we face Server Disconnect Issue and when we are running any important script we dont want it to get terminated because of this. So there is a solution to it. We can run the script in the background using '<strong>nohup</strong>' command. After executing below comand you will find all your output of your script getting appended inside nohup.out file.</p>
+         <div style=" border-left: 6px solid #39ff14;">
+            <pre class="prettyprint lang-bash ">
+			nohup ./script1.sh &
+        </pre>
+         </div>
+         <p><b>Output:</b>
+            <br>
+            [1] &nbsp;&nbsp;&nbsp;&nbsp; 26242
+            <br>
+            nohup: ignoring input and appending output to 'nohup.out'
+            <br><br>
+            In above given output '26242' indicates the PID of the script which can be used to kill/terminate the script. 
+         </p>
+         <br>
+      </section>
+      <br>
+      <hr>
+      <section id="Job list">
+         <div class="container">
+         <div class="row align-items-center">
+            <div class="p-5">
+               <h2 class="display-4" style=" border-bottom : 2px solid #39ff14;">Jobs list</h2>
+            </div>
+         </div>
+         <p>If you have started a script to run in background using 'nohup' command and forgot the PID for that job then you can use command <strong>'jobs'</strong> with option <strong>'l'</strong>, it will list the jobs running on your server with their PIDs.</p>
+         <div style=" border-left: 6px solid #39ff14;">
+            <pre class="prettyprint lang-bash ">
+			jobs -l
+			</pre>
+        </div>
+         <p><b>Output:</b>
+            <br>
+            [1]+ 12345 Running  			nohup ./script1.sh &
+            <br><br>
+            In above given output '12345' for the background script script1.sh. You can terminate this script by using kill command: 
+		<div style=" border-left: 6px solid #39ff14;">
+            <pre class="prettyprint lang-bash ">
+			kill PID
+			</pre>
+        </div>
+		<p><b>Example:</b></p>
+		<div style=" border-left: 6px solid #39ff14;">
+            <pre class="prettyprint lang-bash ">
+			kill 12345
+			</pre>
+        </div>
+		<p><b>Output:</b>
+            <br>
+            [1]+ Terminated		 			nohup ./script1.sh &
+            <br><br>
+			
+         </p>
+         <br>
+         </div>
+      </section>
+      <br>
+      <hr>
+      <footer class="container-fluid bg-grey py-5">
+         <div class="container">
+            <div class="center">
+               <p>&copy; Copyright 2021, CodeOmi </p>
+               <p><b>Contact :</b> codeomi.info@gmail.com </p>
+            </div>
+         </div>
+      </footer>
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendorContent/jquery/jquery.min.js"></script>
+      <script src="vendorContent/bootstrap/js/bootstrap.bundle.min.js"></script>
+   </body>
+</html>
