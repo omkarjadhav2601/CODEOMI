@@ -1,0 +1,531 @@
+6/29/2022, 1:48:18 PM | INFO | app.log | REQUEST : GET Request recieved for ID : 1 - http://localhost:4000/api/books/1 
+6/29/2022, 1:48:19 PM | ERROR | app.log | RESPONSE : Book not found with id : 1 
+6/29/2022, 1:53:48 PM | INFO | app.log | REQUEST : GET Request recieved for ID : 1 - http://localhost:4000/api/books/1 
+6/29/2022, 1:53:48 PM | ERROR | app.log | RESPONSE : Book not found with id : 1 
+6/29/2022, 1:53:59 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+6/29/2022, 1:53:59 PM | INFO | app.log | RESPONSE: Please find below records  
+6/29/2022, 2:09:08 PM | INFO | app.log | REQUEST: POST request for ID : undefined - http://localhost:4000/api/books/ 
+6/29/2022, 2:09:08 PM | ERROR | app.log | RESPONSE : Book already present with the same ID 
+6/29/2022, 2:09:28 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+6/29/2022, 2:09:28 PM | INFO | app.log | RESPONSE: Please find below records  
+6/29/2022, 2:11:09 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+6/29/2022, 2:11:09 PM | INFO | app.log | RESPONSE: Please find below records  
+6/29/2022, 2:11:16 PM | INFO | app.log | REQUEST: POST request for ID : undefined - http://localhost:4000/api/books/ 
+6/29/2022, 2:11:16 PM | ERROR | app.log | book._id 
+6/29/2022, 2:11:16 PM | ERROR | app.log | RESPONSE : Book already present with the same ID 
+6/29/2022, 2:12:04 PM | INFO | app.log | REQUEST: POST request for ID : undefined - http://localhost:4000/api/books/ 
+6/29/2022, 2:13:21 PM | INFO | app.log | REQUEST: POST request for ID : undefined - http://localhost:4000/api/books/ 
+6/29/2022, 2:13:21 PM | ERROR | app.log | book._id:undefined 
+6/29/2022, 2:13:21 PM | ERROR | app.log | RESPONSE : Book already present with the same ID 
+6/29/2022, 2:13:39 PM | INFO | app.log | REQUEST: POST request for ID : undefined - http://localhost:4000/api/books/ 
+6/29/2022, 2:13:39 PM | ERROR | app.log | book._id:undefined 
+6/29/2022, 2:13:39 PM | ERROR | app.log | RESPONSE : Book already present with the same ID 
+6/29/2022, 2:13:55 PM | INFO | app.log | REQUEST: POST request for ID : undefined - http://localhost:4000/api/books/ 
+6/29/2022, 2:13:55 PM | ERROR | app.log | book._id:undefined 
+6/29/2022, 2:13:55 PM | ERROR | app.log | RESPONSE : Book already present with the same ID 
+6/29/2022, 2:15:31 PM | INFO | app.log | REQUEST: POST request for ID : 1 - http://localhost:4000/api/books/ 
+6/29/2022, 2:15:31 PM | ERROR | app.log | book._id:1 
+6/29/2022, 2:15:31 PM | INFO | app.log | RESPONSE: Posted record with ID : 1 | Name : Harry Potter and the Order of Pheonix | Image : https://bit.ly/2lcnSwz | Summary : Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who , in turn look to undermine Dumbledore's authority at Hogwarts and discredit Harry. 
+6/29/2022, 2:15:49 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+6/29/2022, 2:15:49 PM | INFO | app.log | RESPONSE: Please find below records {
+  _id: 1,
+  name: 'Harry Potter and the Order of Pheonix',
+  img: 'https://bit.ly/2lcnSwz',
+  summary: "Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who , in turn look to undermine Dumbledore's authority at Hogwarts and discredit Harry.",
+  createdAt: 2022-06-29T08:45:31.694Z,
+  updatedAt: 2022-06-29T08:45:31.694Z,
+  __v: 0
+} 
+6/29/2022, 2:16:00 PM | INFO | app.log | REQUEST : GET Request recieved for ID : 1 - http://localhost:4000/api/books/1 
+6/29/2022, 2:16:00 PM | INFO | app.log | RESPONSE : Found Book with id : 1 - {
+ _id: 1,
+  name: 'Harry Potter and the Order of Pheonix',
+  img: 'https://bit.ly/2lcnSwz',
+  summary: "Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who , in turn look to undermine Dumbledore's authority at Hogwarts and discredit Harry.",
+  createdAt: 2022-06-29T08:45:31.694Z,
+  updatedAt: 2022-06-29T08:45:31.694Z,
+  __v: 0
+} 
+6/29/2022, 2:40:18 PM | INFO | app.log | REQUEST: POST request for ID : 2 - http://localhost:4000/api/books/ 
+6/29/2022, 2:40:18 PM | ERROR | app.log | book._id:2 
+6/29/2022, 2:40:18 PM | INFO | app.log | RESPONSE: Posted record with ID : 2 | Name : The Lord of the Rings: The Fellowship of the Ring | Image : https://bit.ly/2tC1Lcg | Summary : A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed. 
+6/29/2022, 2:41:49 PM | INFO | app.log | REQUEST : PUT request for ID : 2 - http://localhost:4000/api/books/2 
+6/29/2022, 2:41:49 PM | ERROR | app.log | RESPONSE : Something went wrong while updating ID : 2 
+6/29/2022, 2:42:26 PM | INFO | app.log | REQUEST : PUT request for ID : 2 - http://localhost:4000/api/books/2 
+6/29/2022, 2:42:26 PM | ERROR | app.log | RESPONSE : Something went wrong while updating ID : 2 
+6/29/2022, 2:48:45 PM | INFO | app.log | REQUEST : PUT request for ID : 2 - http://localhost:4000/api/books/2 
+6/29/2022, 2:48:45 PM | ERROR | app.log | RESPONSE : Something went wrong while updating ID : 2 
+6/29/2022, 2:51:11 PM | INFO | app.log | REQUEST : PUT request for ID : 2 - http://localhost:4000/api/books/2 
+6/29/2022, 2:51:11 PM | INFO | app.log | 91 
+6/29/2022, 2:51:12 PM | INFO | app.log | 111 
+6/29/2022, 2:53:28 PM | INFO | app.log | REQUEST : PUT request for ID : 2 - http://localhost:4000/api/books/2 
+6/29/2022, 2:53:28 PM | INFO | app.log | 91 
+6/29/2022, 2:53:28 PM | INFO | app.log | 111 
+6/29/2022, 2:56:46 PM | INFO | app.log | REQUEST : DELETE request for ID : 2 - http://localhost:4000/api/books/2 
+6/29/2022, 2:56:46 PM | INFO | app.log | RESPONSE : Book Deleted successfully with ID : 2 
+6/29/2022, 2:57:26 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+6/29/2022, 2:57:26 PM | INFO | app.log | RESPONSE: Please find below records {
+  _id: 1,
+  name: 'Harry Potter and the Order of Pheonix',
+  img: 'https://bit.ly/2lcnSwz',
+  summary: "Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who , in turn look to undermine Dumbledore's authority at Hogwarts and discredit Harry.",
+  createdAt: 2022-06-29T08:45:31.694Z,
+  updatedAt: 2022-06-29T08:45:31.694Z,
+  __v: 0
+} 
+6/29/2022, 2:57:49 PM | INFO | app.log | REQUEST : PUT request for ID : 2 - http://localhost:4000/api/books/2 
+6/29/2022, 2:57:49 PM | INFO | app.log | 91 
+6/29/2022, 2:57:49 PM | INFO | app.log | 99 
+6/29/2022, 2:57:49 PM | ERROR | app.log | RESPONSE : Book not found with id : 2 
+6/29/2022, 2:57:57 PM | INFO | app.log | REQUEST : PUT request for ID : 2 - http://localhost:4000/api/books/2 
+6/29/2022, 2:57:57 PM | INFO | app.log | 91 
+6/29/2022, 2:57:57 PM | INFO | app.log | 99 
+6/29/2022, 2:57:57 PM | ERROR | app.log | RESPONSE : Book not found with id : 2 
+6/29/2022, 2:58:08 PM | INFO | app.log | REQUEST : PUT request for ID : 1 - http://localhost:4000/api/books/1 
+6/29/2022, 2:58:08 PM | INFO | app.log | 91 
+6/29/2022, 2:59:23 PM | INFO | app.log | REQUEST : PUT request for ID : 1 - http://localhost:4000/api/books/1 
+6/29/2022, 2:59:23 PM | INFO | app.log | 91 
+6/29/2022, 2:59:23 PM | INFO | app.log | 111 
+6/29/2022, 3:01:33 PM | INFO | app.log | REQUEST : PUT request for ID : 1 - http://localhost:4000/api/books/1 
+6/29/2022, 3:01:33 PM | INFO | app.log | 91 
+6/29/2022, 3:01:33 PM | INFO | app.log | 111 
+6/29/2022, 3:02:23 PM | INFO | app.log | REQUEST : PUT request for ID : 1 - http://localhost:4000/api/books/1 
+6/29/2022, 3:02:23 PM | INFO | app.log | 91 
+6/29/2022, 3:02:23 PM | INFO | app.log | 111 
+6/29/2022, 3:03:23 PM | INFO | app.log | REQUEST : PUT request for ID : 1 - http://localhost:4000/api/books/1 
+6/29/2022, 3:03:23 PM | INFO | app.log | 91 
+6/29/2022, 3:03:23 PM | INFO | app.log | 99 
+6/29/2022, 3:03:23 PM | INFO | app.log | 103 
+6/29/2022, 3:03:23 PM | INFO | app.log | RESPONSE : Record updated for ID : 1 | Updated Values - ID : 1 | Name : null | Image : null | Summary : null 
+6/29/2022, 3:06:23 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+6/29/2022, 3:06:23 PM | INFO | app.log | RESPONSE: Please find below records {
+  _id: 1,
+  name: null,
+  img: null,
+  summary: null,
+  createdAt: 2022-06-29T08:45:31.694Z,
+  updatedAt: 2022-06-29T09:33:23.743Z,
+  __v: 0
+} 
+6/29/2022, 3:06:40 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+6/29/2022, 3:06:40 PM | INFO | app.log | RESPONSE: Please find below records {
+  _id: 1,
+  name: null,
+  img: null,
+  summary: null,
+  createdAt: 2022-06-29T08:45:31.694Z,
+  updatedAt: 2022-06-29T09:33:23.743Z,
+  __v: 0
+} 
+6/29/2022, 3:07:49 PM | INFO | app.log | REQUEST : DELETE request for ID : 1 - http://localhost:4000/api/books/1 
+6/29/2022, 3:07:49 PM | INFO | app.log | RESPONSE : Book Deleted successfully with ID : 1 
+6/29/2022, 3:07:54 PM | INFO | app.log | REQUEST: POST request for ID : 2 - http://localhost:4000/api/books/ 
+6/29/2022, 3:07:54 PM | INFO | app.log | RESPONSE: Posted record with ID : 2 | Name : The Lord of the Rings: The Fellowship of the Ring | Image : https://bit.ly/2tC1Lcg | Summary : A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed. 
+6/29/2022, 3:07:58 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+6/29/2022, 3:07:58 PM | INFO | app.log | RESPONSE: Please find below records {
+  _id: 2,
+  name: 'The Lord of the Rings: The Fellowship of the Ring',
+  img: 'https://bit.ly/2tC1Lcg',
+  summary: 'A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.',
+  createdAt: 2022-06-29T09:37:54.129Z,
+  updatedAt: 2022-06-29T09:37:54.129Z,
+  __v: 0
+} 
+6/29/2022, 3:08:05 PM | INFO | app.log | REQUEST : PUT request for ID : 1 - http://localhost:4000/api/books/1 
+6/29/2022, 3:08:05 PM | INFO | app.log | 91 
+6/29/2022, 3:08:05 PM | INFO | app.log | 99 
+6/29/2022, 3:08:05 PM | ERROR | app.log | RESPONSE : Book not found with id : 1 
+6/29/2022, 3:08:21 PM | INFO | app.log | REQUEST : PUT request for ID : 2 - http://localhost:4000/api/books/2 
+6/29/2022, 3:08:21 PM | INFO | app.log | 91 
+6/29/2022, 3:08:21 PM | INFO | app.log | 99 
+6/29/2022, 3:08:21 PM | INFO | app.log | 103 
+6/29/2022, 3:08:21 PM | INFO | app.log | RESPONSE : Record updated for ID : 2 | Updated Values - ID : 2 | Name : null | Image : null | Summary : null 
+6/29/2022, 3:08:54 PM | INFO | app.log | REQUEST : PUT request for ID : 2 - http://localhost:4000/api/books/2 
+6/29/2022, 3:08:54 PM | INFO | app.log | 91 
+6/29/2022, 3:08:54 PM | INFO | app.log | 99 
+6/29/2022, 3:08:54 PM | INFO | app.log | 103 
+6/29/2022, 3:08:54 PM | INFO | app.log | RESPONSE : Record updated for ID : 2 | Updated Values - ID : 2 | Name : The Lord of the Rings: The Fellowship of the Ring | Image : https://bit.ly/2tC1Lcg1 | Summary : A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed. 
+6/29/2022, 3:09:16 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+6/29/2022, 3:09:16 PM | INFO | app.log | RESPONSE: Please find below records {
+  _id: 2,
+  name: 'The Lord of the Rings: The Fellowship of the Ring',
+  img: 'https://bit.ly/2tC1Lcg1',
+  summary: 'A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.',
+  createdAt: 2022-06-29T09:37:54.129Z,
+  updatedAt: 2022-06-29T09:38:54.984Z,
+  __v: 0
+} 
+6/29/2022, 3:09:27 PM | INFO | app.log | REQUEST : DELETE request for ID : 2 - http://localhost:4000/api/books/2 
+6/29/2022, 3:09:27 PM | INFO | app.log | RESPONSE : Book Deleted successfully with ID : 2 
+6/29/2022, 3:09:32 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+6/29/2022, 3:09:32 PM | INFO | app.log | RESPONSE: Please find below records  
+6/29/2022, 3:09:56 PM | INFO | app.log | REQUEST: POST request for ID : 1 - http://localhost:4000/api/books/ 
+6/29/2022, 3:09:56 PM | INFO | app.log | RESPONSE: Posted record with ID : 1 | Name : Harry Potter and the Order of Pheonix | Image : https://bit.ly/2lcnSwz | Summary : Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who , in turn look to undermine Dumbledore's authority at Hogwarts and discredit Harry. 
+6/29/2022, 3:11:10 PM | INFO | app.log | REQUEST: POST request for ID : 2 - http://localhost:4000/api/books/ 
+6/29/2022, 3:11:10 PM | INFO | app.log | RESPONSE: Posted record with ID : 2 | Name : The Lord of the Rings: The Fellowship of the Ring | Image : https://bit.ly/2tC1Lcg | Summary : A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed. 
+6/29/2022, 3:16:14 PM | INFO | app.log | REQUEST: POST request for ID : 3 - http://localhost:4000/api/books/ 
+6/29/2022, 3:16:14 PM | INFO | app.log | RESPONSE: Posted record with ID : 3 | Name : Avengers Endgame | Image : https://bit.ly/2Pzczlb | Summary : Adrift in space with no food and water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America, and Bruce Banner-- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos, the evil demigod who decimated the planet and the universe. 
+6/29/2022, 3:18:23 PM | INFO | app.log | REQUEST : PUT request for ID : 3 - http://localhost:4000/api/books/3 
+6/29/2022, 3:18:23 PM | INFO | app.log | 91 
+6/29/2022, 3:18:23 PM | INFO | app.log | 99 
+6/29/2022, 3:18:23 PM | INFO | app.log | 103 
+6/29/2022, 3:18:23 PM | INFO | app.log | RESPONSE : Record updated for ID : 3 | Updated Values - ID : 3 | Name : The Lord of the Rings: The Fellowship of the Ring22222 | Image : https://bit.ly/2tC1Lcg1 | Summary : A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed. 
+6/29/2022, 3:18:37 PM | INFO | app.log | REQUEST : GET Request recieved for ID : 3 - http://localhost:4000/api/books/3 
+6/29/2022, 3:18:37 PM | INFO | app.log | RESPONSE : Found Book with id : 3 - {
+  _id: 3,
+  name: 'The Lord of the Rings: The Fellowship of the Ring22222',
+  img: 'https://bit.ly/2tC1Lcg1',
+  summary: 'A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.',
+  createdAt: 2022-06-29T09:46:14.814Z,
+  updatedAt: 2022-06-29T09:48:23.912Z,
+  __v: 0
+} 
+6/29/2022, 3:18:48 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+6/29/2022, 3:18:48 PM | INFO | app.log | RESPONSE: Please find below records {
+  _id: 1,
+  name: 'Harry Potter and the Order of Pheonix',
+  img: 'https://bit.ly/2lcnSwz',
+  summary: "Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who , in turn look to undermine Dumbledore's authority at Hogwarts and discredit Harry.",
+  createdAt: 2022-06-29T09:39:56.447Z,
+  updatedAt: 2022-06-29T09:39:56.447Z,
+  __v: 0
+},{
+  _id: 2,
+  name: 'The Lord of the Rings: The Fellowship of the Ring',
+  img: 'https://bit.ly/2tC1Lcg',
+  summary: 'A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.',
+  createdAt: 2022-06-29T09:41:10.043Z,
+  updatedAt: 2022-06-29T09:41:10.043Z,
+  __v: 0
+},{
+  _id: 3,
+  name: 'The Lord of the Rings: The Fellowship of the Ring22222',
+  img: 'https://bit.ly/2tC1Lcg1',
+  summary: 'A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.',
+  createdAt: 2022-06-29T09:46:14.814Z,
+  updatedAt: 2022-06-29T09:48:23.912Z,
+  __v: 0
+} 
+6/29/2022, 3:19:01 PM | INFO | app.log | REQUEST : DELETE request for ID : 3 - http://localhost:4000/api/books/3 
+6/29/2022, 3:19:01 PM | INFO | app.log | RESPONSE : Book Deleted successfully with ID : 3 
+6/29/2022, 3:19:09 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+6/29/2022, 3:19:09 PM | INFO | app.log | RESPONSE: Please find below records {
+  _id: 1,
+  name: 'Harry Potter and the Order of Pheonix',
+  img: 'https://bit.ly/2lcnSwz',
+  summary: "Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who , in turn look to undermine Dumbledore's authority at Hogwarts and discredit Harry.",
+  createdAt: 2022-06-29T09:39:56.447Z,
+  updatedAt: 2022-06-29T09:39:56.447Z,
+  __v: 0
+},{
+  _id: 2,
+  name: 'The Lord of the Rings: The Fellowship of the Ring',
+  img: 'https://bit.ly/2tC1Lcg',
+  summary: 'A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.',
+  createdAt: 2022-06-29T09:41:10.043Z,
+  updatedAt: 2022-06-29T09:41:10.043Z,
+  __v: 0
+} 
+6/29/2022, 3:20:24 PM | INFO | app.log | REQUEST : PUT request for ID : 4 - http://localhost:4000/api/books/4 
+6/29/2022, 3:20:24 PM | INFO | app.log | 91 
+6/29/2022, 3:20:24 PM | INFO | app.log | 99 
+6/29/2022, 3:20:24 PM | ERROR | app.log | RESPONSE : Book not found with id : 4 
+6/29/2022, 4:41:15 PM | INFO | app.log | REQUEST : DELETE request for ID : 1 - http://localhost:4000/api/books/1 
+6/29/2022, 4:41:15 PM | INFO | app.log | RESPONSE : Book Deleted successfully with ID : 1 
+6/29/2022, 4:41:41 PM | INFO | app.log | REQUEST: POST request for ID : 1 - http://localhost:4000/api/books/ 
+6/29/2022, 4:41:41 PM | INFO | app.log | RESPONSE: Posted record with ID : 1 | Name : Harry Potter and the Order of Pheonix | Image : https://bit.ly/2lcnSwz | Summary : Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who , in turn look to undermine Dumbledore's authority at Hogwarts and discredit Harry. 
+6/29/2022, 4:43:00 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+6/29/2022, 4:43:00 PM | INFO | app.log | RESPONSE: Please find below records {
+  _id: 2,
+  name: 'The Lord of the Rings: The Fellowship of the Ring',
+  img: 'https://bit.ly/2tC1Lcg',
+  summary: 'A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.',
+  createdAt: 2022-06-29T09:41:10.043Z,
+  updatedAt: 2022-06-29T09:41:10.043Z,
+  __v: 0
+},{
+  _id: 1,
+  name: 'Harry Potter and the Order of Pheonix',
+  img: 'https://bit.ly/2lcnSwz',
+  summary: "Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who , in turn look to undermine Dumbledore's authority at Hogwarts and discredit Harry.",
+  createdAt: 2022-06-29T11:11:41.978Z,
+  updatedAt: 2022-06-29T11:11:41.978Z,
+  __v: 0
+} 
+6/29/2022, 4:43:08 PM | INFO | app.log | REQUEST : GET Request recieved for ID : 1 - http://localhost:4000/api/books/1 
+6/29/2022, 4:43:08 PM | INFO | app.log | RESPONSE : Found Book with id : 1 - {
+  _id: 1,
+  name: 'Harry Potter and the Order of Pheonix',
+  img: 'https://bit.ly/2lcnSwz',
+  summary: "Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who , in turn look to undermine Dumbledore's authority at Hogwarts and discredit Harry.",
+  createdAt: 2022-06-29T11:11:41.978Z,
+  updatedAt: 2022-06-29T11:11:41.978Z,
+  __v: 0
+} 
+6/29/2022, 4:46:58 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+6/29/2022, 4:46:58 PM | INFO | app.log | RESPONSE: Please find below records {
+  _id: 2,
+  name: 'The Lord of the Rings: The Fellowship of the Ring',
+  img: 'https://bit.ly/2tC1Lcg',
+  summary: 'A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.',
+  createdAt: 2022-06-29T09:41:10.043Z,
+  updatedAt: 2022-06-29T09:41:10.043Z,
+  __v: 0
+},{
+  _id: 1,
+  name: 'Harry Potter and the Order of Pheonix',
+  img: 'https://bit.ly/2lcnSwz',
+  summary: "Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who , in turn look to undermine Dumbledore's authority at Hogwarts and discredit Harry.",
+  createdAt: 2022-06-29T11:11:41.978Z,
+  updatedAt: 2022-06-29T11:11:41.978Z,
+  __v: 0
+} 
+6/29/2022, 4:49:31 PM | INFO | app.log | REQUEST : PUT request for ID : 4 - http://localhost:4000/api/books/4 
+6/29/2022, 4:49:31 PM | INFO | app.log | 91 
+6/29/2022, 4:49:31 PM | INFO | app.log | 99 
+6/29/2022, 4:49:31 PM | ERROR | app.log | RESPONSE : Book not found with id : 4 
+6/29/2022, 4:49:45 PM | INFO | app.log | REQUEST : PUT request for ID : 1 - http://localhost:4000/api/books/1 
+6/29/2022, 4:49:45 PM | INFO | app.log | 91 
+6/29/2022, 4:49:45 PM | INFO | app.log | 99 
+6/29/2022, 4:49:45 PM | INFO | app.log | 103 
+6/29/2022, 4:49:45 PM | INFO | app.log | RESPONSE : Record updated for ID : 1 | Updated Values - ID : 1 | Name : The Lord of the Rings: The Fellowship of the 444 | Image : https://bit.ly/2tC1Lcg1 | Summary : A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed. 
+6/29/2022, 4:49:47 PM | INFO | app.log | REQUEST : PUT request for ID : 1 - http://localhost:4000/api/books/1 
+6/29/2022, 4:49:47 PM | INFO | app.log | 91 
+6/29/2022, 4:49:47 PM | INFO | app.log | 99 
+6/29/2022, 4:49:47 PM | INFO | app.log | 103 
+6/29/2022, 4:49:47 PM | INFO | app.log | RESPONSE : Record updated for ID : 1 | Updated Values - ID : 1 | Name : The Lord of the Rings: The Fellowship of the 444 | Image : https://bit.ly/2tC1Lcg1 | Summary : A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed. 
+6/29/2022, 4:50:38 PM | INFO | app.log | REQUEST : PUT request for ID : 1 - http://localhost:4000/api/books/1 
+6/29/2022, 4:50:38 PM | INFO | app.log | 91 
+6/29/2022, 4:50:38 PM | INFO | app.log | 99 
+6/29/2022, 4:50:38 PM | INFO | app.log | 103 
+6/29/2022, 4:50:38 PM | INFO | app.log | RESPONSE : Record updated for ID : 1 | Updated Values - ID : 1 | Name : 111111 Harry Potter and the Order of Pheonix | Image : https://bit.ly/2lcnSwz | Summary : Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who , in turn look to undermine Dumbledore's authority at Hogwarts and discredit Harry. 
+6/29/2022, 4:54:57 PM | INFO | app.log | REQUEST : DELETE request for ID : 1 - http://localhost:4000/api/books/1 
+6/29/2022, 4:54:57 PM | INFO | app.log | RESPONSE : Book Deleted successfully with ID : 1 
+7/1/2022, 4:08:01 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+7/1/2022, 4:08:02 PM | INFO | app.log | RESPONSE: Please find below records {
+  _id: 2,
+  name: 'The Lord of the Rings: The Fellowship of the Ring',
+  img: 'https://bit.ly/2tC1Lcg',
+  summary: 'A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.',
+  createdAt: 2022-06-29T09:41:10.043Z,
+  updatedAt: 2022-06-29T09:41:10.043Z,
+  __v: 0
+} 
+7/1/2022, 4:08:37 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+7/1/2022, 4:08:37 PM | INFO | app.log | RESPONSE: Please find below records {
+  _id: 2,
+  name: 'The Lord of the Rings: The Fellowship of the Ring',
+  img: 'https://bit.ly/2tC1Lcg',
+  summary: 'A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.',
+  createdAt: 2022-06-29T09:41:10.043Z,
+  updatedAt: 2022-06-29T09:41:10.043Z,
+  __v: 0
+} 
+7/1/2022, 4:09:55 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+7/1/2022, 4:09:55 PM | INFO | app.log | RESPONSE: Please find below records {
+  _id: 2,
+  name: 'The Lord of the Rings: The Fellowship of the Ring',
+  img: 'https://bit.ly/2tC1Lcg',
+  summary: 'A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.',
+  createdAt: 2022-06-29T09:41:10.043Z,
+  updatedAt: 2022-06-29T09:41:10.043Z,
+  __v: 0
+} 
+7/1/2022, 4:10:29 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+7/1/2022, 4:10:29 PM | INFO | app.log | RESPONSE: Please find below records {
+  _id: 2,
+  name: 'The Lord of the Rings: The Fellowship of the Ring',
+  img: 'https://bit.ly/2tC1Lcg',
+  summary: 'A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.',
+  createdAt: 2022-06-29T09:41:10.043Z,
+  updatedAt: 2022-06-29T09:41:10.043Z,
+  __v: 0
+} 
+7/1/2022, 4:26:15 PM | INFO | app.log | REQUEST : PUT request for ID : 1 - http://localhost:4000/api/books/1 
+7/1/2022, 4:26:15 PM | INFO | app.log | 91 
+7/1/2022, 4:26:15 PM | INFO | app.log | 99 
+7/1/2022, 4:26:15 PM | ERROR | app.log | RESPONSE : Book not found with id : 1 
+7/1/2022, 4:27:20 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+7/1/2022, 4:27:20 PM | INFO | app.log | RESPONSE: Please find below records {
+  _id: 2,
+  name: 'The Lord of the Rings: The Fellowship of the Ring',
+  img: 'https://bit.ly/2tC1Lcg',
+  summary: 'A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.',
+  createdAt: 2022-06-29T09:41:10.043Z,
+  updatedAt: 2022-06-29T09:41:10.043Z,
+  __v: 0
+} 
+7/1/2022, 4:28:07 PM | INFO | app.log | REQUEST : PUT request for ID : 1 - http://localhost:4000/api/books/1 
+7/1/2022, 4:28:07 PM | INFO | app.log | 91 
+7/1/2022, 4:28:07 PM | INFO | app.log | 99 
+7/1/2022, 4:28:07 PM | ERROR | app.log | RESPONSE : Book not found with id : 1 
+7/1/2022, 4:29:31 PM | INFO | app.log | REQUEST: POST request for ID : 1 - http://localhost:4000/api/books/ 
+7/1/2022, 4:29:31 PM | INFO | app.log | RESPONSE: Posted record with ID : 1 | Name : Harry Potter and the Order of Pheonix | Image : https://bit.ly/2lcnSwz | Summary : Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who , in turn look to undermine Dumbledore's authority at Hogwarts and discredit Harry. 
+7/1/2022, 4:32:37 PM | INFO | app.log | REQUEST: POST request for ID : 2 - http://localhost:4000/api/books/ 
+7/1/2022, 4:32:37 PM | ERROR | app.log | RESPONSE : Book already present with the same ID 
+7/1/2022, 4:33:16 PM | INFO | app.log | REQUEST: POST request for ID : 2 - http://localhost:4000/api/books/ 
+7/1/2022, 4:33:16 PM | ERROR | app.log | RESPONSE : Book already present with the same ID 
+7/1/2022, 4:33:26 PM | INFO | app.log | REQUEST: POST request for ID : 1 - http://localhost:4000/api/books/ 
+7/1/2022, 4:33:26 PM | ERROR | app.log | RESPONSE : Book already present with the same ID 
+7/1/2022, 4:34:24 PM | INFO | app.log | REQUEST: POST request for ID : 3 - http://localhost:4000/api/books/ 
+7/1/2022, 4:34:24 PM | INFO | app.log | RESPONSE: Posted record with ID : 3 | Name : The Lord of the Rings: The Fellowship of the Ring | Image : https://bit.ly/2tC1Lcg | Summary : A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed. 
+7/1/2022, 4:35:15 PM | INFO | app.log | REQUEST: POST request for ID : 4 - http://localhost:4000/api/books/ 
+7/1/2022, 4:35:16 PM | INFO | app.log | RESPONSE: Posted record with ID : 4 | Name : Avengers Endgame | Image : https://bit.ly/2Pzczlb | Summary : Adrift in space with no food and water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America, and Bruce Banner-- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos, the evil demigod who decimated the planet and the universe. 
+7/1/2022, 4:35:26 PM | INFO | app.log | REQUEST : GET Request recieved for ID : 4 - http://localhost:4000/api/books/4 
+7/1/2022, 4:35:26 PM | INFO | app.log | RESPONSE : Found Book with id : 4 - {
+  _id: 4,
+  name: 'Avengers Endgame',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: 'Adrift in space with no food and water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America, and Bruce Banner-- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos, the evil demigod who decimated the planet and the universe.',
+  createdAt: 2022-07-01T11:05:16.003Z,
+  updatedAt: 2022-07-01T11:05:16.003Z,
+  __v: 0
+} 
+7/1/2022, 4:35:35 PM | INFO | app.log | REQUEST : GET Request recieved for ID : 3 - http://localhost:4000/api/books/3 
+7/1/2022, 4:35:35 PM | INFO | app.log | RESPONSE : Found Book with id : 3 - {
+  _id: 3,
+  name: 'The Lord of the Rings: The Fellowship of the Ring',
+  img: 'https://bit.ly/2tC1Lcg',
+  summary: 'A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.',
+  createdAt: 2022-07-01T11:04:24.149Z,
+  updatedAt: 2022-07-01T11:04:24.149Z,
+  __v: 0
+} 
+7/1/2022, 4:35:45 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+7/1/2022, 4:35:45 PM | INFO | app.log | RESPONSE: Please find below records {
+  _id: 2,
+  name: 'The Lord of the Rings: The Fellowship of the Ring',
+  img: 'https://bit.ly/2tC1Lcg',
+  summary: 'A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.',
+  createdAt: 2022-06-29T09:41:10.043Z,
+  updatedAt: 2022-06-29T09:41:10.043Z,
+  __v: 0
+},{
+  _id: 1,
+  name: 'Harry Potter and the Order of Pheonix',
+  img: 'https://bit.ly/2lcnSwz',
+  summary: "Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who , in turn look to undermine Dumbledore's authority at Hogwarts and discredit Harry.",
+  createdAt: 2022-07-01T10:59:31.375Z,
+  updatedAt: 2022-07-01T10:59:31.375Z,
+  __v: 0
+},{
+  _id: 3,
+  name: 'The Lord of the Rings: The Fellowship of the Ring',
+  img: 'https://bit.ly/2tC1Lcg',
+  summary: 'A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.',
+  createdAt: 2022-07-01T11:04:24.149Z,
+  updatedAt: 2022-07-01T11:04:24.149Z,
+  __v: 0
+},{
+  _id: 4,
+  name: 'Avengers Endgame',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: 'Adrift in space with no food and water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America, and Bruce Banner-- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos, the evil demigod who decimated the planet and the universe.',
+  createdAt: 2022-07-01T11:05:16.003Z,
+  updatedAt: 2022-07-01T11:05:16.003Z,
+  __v: 0
+} 
+7/1/2022, 5:16:14 PM | INFO | app.log | REQUEST: POST request for ID : 4 - http://localhost:4000/api/books/ 
+7/1/2022, 5:16:14 PM | ERROR | app.log | RESPONSE : Book already present with the same ID 
+7/1/2022, 5:16:41 PM | INFO | app.log | REQUEST: POST request for ID : 5 - http://localhost:4000/api/books/ 
+7/1/2022, 5:16:41 PM | INFO | app.log | RESPONSE: Posted record with ID : 5 | Name : Avengers Endgame 1 | Image : https://bit.ly/2Pzczlb | Summary : Adrift in space with no food and water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America, and Bruce Banner-- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos, the evil demigod who decimated the planet and the universe. 
+7/1/2022, 5:17:02 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+7/1/2022, 5:17:02 PM | INFO | app.log | RESPONSE: Please find below records {
+  _id: 2,
+  name: 'The Lord of the Rings: The Fellowship of the Ring',
+  img: 'https://bit.ly/2tC1Lcg',
+  summary: 'A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.',
+  createdAt: 2022-06-29T09:41:10.043Z,
+  updatedAt: 2022-06-29T09:41:10.043Z,
+  __v: 0
+},{
+  _id: 1,
+  name: 'Harry Potter and the Order of Pheonix',
+  img: 'https://bit.ly/2lcnSwz',
+  summary: "Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who , in turn look to undermine Dumbledore's authority at Hogwarts and discredit Harry.",
+  createdAt: 2022-07-01T10:59:31.375Z,
+  updatedAt: 2022-07-01T10:59:31.375Z,
+  __v: 0
+},{
+  _id: 3,
+  name: 'The Lord of the Rings: The Fellowship of the Ring',
+  img: 'https://bit.ly/2tC1Lcg',
+  summary: 'A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.',
+  createdAt: 2022-07-01T11:04:24.149Z,
+  updatedAt: 2022-07-01T11:04:24.149Z,
+  __v: 0
+},{
+  _id: 4,
+  name: 'Avengers Endgame',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: 'Adrift in space with no food and water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America, and Bruce Banner-- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos, the evil demigod who decimated the planet and the universe.',
+  createdAt: 2022-07-01T11:05:16.003Z,
+  updatedAt: 2022-07-01T11:05:16.003Z,
+  __v: 0
+},{
+  _id: 5,
+  name: 'Avengers Endgame 1',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: 'Adrift in space with no food and water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America, and Bruce Banner-- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos, the evil demigod who decimated the planet and the universe.',
+  createdAt: 2022-07-01T11:46:41.395Z,
+  updatedAt: 2022-07-01T11:46:41.395Z,
+  __v: 0
+} 
+7/1/2022, 5:17:18 PM | INFO | app.log | REQUEST : PUT request for ID : 5 - http://localhost:4000/api/books/5 
+7/1/2022, 5:17:18 PM | INFO | app.log | 91 
+7/1/2022, 5:17:18 PM | INFO | app.log | 99 
+7/1/2022, 5:17:18 PM | INFO | app.log | 103 
+7/1/2022, 5:17:18 PM | INFO | app.log | RESPONSE : Record updated for ID : 5 | Updated Values - ID : 5 | Name : 11 Harry Potter and the Order of Pheonix | Image : https://bit.ly/2lcnSwz | Summary : Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who , in turn look to undermine Dumbledore's authority at Hogwarts and discredit Harry. 
+7/1/2022, 5:17:28 PM | INFO | app.log | REQUEST : PUT request for ID : 5 - http://localhost:4000/api/books/5 
+7/1/2022, 5:17:28 PM | INFO | app.log | 91 
+7/1/2022, 5:17:28 PM | INFO | app.log | 99 
+7/1/2022, 5:17:28 PM | INFO | app.log | 103 
+7/1/2022, 5:17:28 PM | INFO | app.log | RESPONSE : Record updated for ID : 5 | Updated Values - ID : 5 | Name : 111 Harry Potter and the Order of Pheonix | Image : https://bit.ly/2lcnSwz | Summary : Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who , in turn look to undermine Dumbledore's authority at Hogwarts and discredit Harry. 
+7/1/2022, 5:17:35 PM | INFO | app.log | REQUEST : GET Request recieved for ID : 5 - http://localhost:4000/api/books/5 
+7/1/2022, 5:17:35 PM | INFO | app.log | RESPONSE : Found Book with id : 5 - {
+  _id: 5,
+  name: '111 Harry Potter and the Order of Pheonix',
+  img: 'https://bit.ly/2lcnSwz',
+  summary: "Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who , in turn look to undermine Dumbledore's authority at Hogwarts and discredit Harry.",
+  createdAt: 2022-07-01T11:46:41.395Z,
+  updatedAt: 2022-07-01T11:47:28.765Z,
+  __v: 0
+} 
+7/1/2022, 5:17:45 PM | INFO | app.log | REQUEST : DELETE request for ID : 5 - http://localhost:4000/api/books/5 
+7/1/2022, 5:17:45 PM | INFO | app.log | RESPONSE : Book Deleted successfully with ID : 5 
+7/1/2022, 5:17:54 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+7/1/2022, 5:17:54 PM | INFO | app.log | RESPONSE: Please find below records {
+  _id: 2,
+  name: 'The Lord of the Rings: The Fellowship of the Ring',
+  img: 'https://bit.ly/2tC1Lcg',
+  summary: 'A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.',
+  createdAt: 2022-06-29T09:41:10.043Z,
+  updatedAt: 2022-06-29T09:41:10.043Z,
+  __v: 0
+},{
+  _id: 1,
+  name: 'Harry Potter and the Order of Pheonix',
+  img: 'https://bit.ly/2lcnSwz',
+  summary: "Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who , in turn look to undermine Dumbledore's authority at Hogwarts and discredit Harry.",
+  createdAt: 2022-07-01T10:59:31.375Z,
+  updatedAt: 2022-07-01T10:59:31.375Z,
+  __v: 0
+},{
+  _id: 3,
+  name: 'The Lord of the Rings: The Fellowship of the Ring',
+  img: 'https://bit.ly/2tC1Lcg',
+  summary: 'A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.',
+  createdAt: 2022-07-01T11:04:24.149Z,
+  updatedAt: 2022-07-01T11:04:24.149Z,
+  __v: 0
+},{
+  _id: 4,
+  name: 'Avengers Endgame',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: 'Adrift in space with no food and water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America, and Bruce Banner-- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos, the evil demigod who decimated the planet and the universe.',
+  createdAt: 2022-07-01T11:05:16.003Z,
+  updatedAt: 2022-07-01T11:05:16.003Z,
+  __v: 0
+} 
+7/1/2022, 5:18:09 PM | INFO | app.log | REQUEST : DELETE request for ID : 5 - http://localhost:4000/api/books/5 
+7/1/2022, 5:18:09 PM | ERROR | app.log | RESPONSE : Book not found with id : 5 
